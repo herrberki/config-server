@@ -18,3 +18,5 @@ spring:
           uri: lb://DEPARTMENT-SERVICE
           predicates:
             - Path=/departments/**
+department:
+  departmentAddress: İzmir
